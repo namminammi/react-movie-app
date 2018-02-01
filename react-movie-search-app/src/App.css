@@ -1,28 +1,146 @@
+
+body{
+  font-family: Helvetica;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  /*background-color: #40c0c1;*/
+  height: 20%;
   padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
+  /*color: white;*/
 }
 
 .App-intro {
   font-size: large;
+  margin-top: 15px;
+  text-align: left;
+  margin-left: 8em;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+li {
+  text-decoration: none;
+  display: block;
 }
+
+
+.eraseDiv{
+  display: none;
+}
+
+
+ 
+.appPageTitle {
+  margin: 20px 0 30px;
+  text-align: center; }
+
+.btnContainer {
+  margin: 20px 0;
+  text-align: center; }
+
+#searchBtnContainer {
+  display: inline-block;
+  margin: 10px; }
+
+#refreshBtnContainer {
+  margin: 10px; }
+
+#noMatch {
+  text-align: center;
+  color: red;
+  display: none; }
+
+.searchFilmTitles {
+  height: 60px;
+  padding: 10px; }
+
+/*.movieCard {
+  padding-top: 20px; }*/
+
+.movieTitle, .movieTitle_detailView, .actorPageTitle, .actorPopMoviesList, .actorsFeatured {
+  text-align: center;
+  padding: 20px 0;
+  margin: 10px;
+  border: 1px solid grey; }
+
+.movieTitle {
+  width: 217px;
+  height: 368px;
+  float: left; }
+
+#showTitle {
+  padding: 12px; }
+
+.littleSpace {
+  padding: 20px 0; }
+
+.movieTitle_detailView {
+  padding: 20px 0;
+  width: 90%; }
+
+/*.movieDetail_actors {
+  display: none; }*/
+
+.actorsFeatured {
+  padding: 0 0 20px 0;
+  float: left; }
+
+.actorDetail {
+  display: none; }
+
+/*.actorShowTopMovies {
+  display: none; }*/
+
+.actorPopMovies {
+  display: inline; }
+
+.actorPopMoviesList {
+  width: 217px;
+  float: left; }
+
+.actorFilmTitles {
+  height: 50px;
+  padding: 10px; }
+
+  .selectedMovieTitle, .selectedActorTitle{
+    padding: 1em 0;
+    border: 1px solid grey;
+    margin:0.3em 6em;
+  }
+
+  .movieName{
+    padding:10px;
+    border:1px solid grey;
+    margin:0 1em;
+  }
+
+  input[type="text"]
+{
+    font-size:1em;
+}
+
+  .movieSearchInput{
+    padding:8px 20px;
+    border:2px solid grey;
+    font-size: 1em;
+    font-weight: 800;
+  }
+
+  .RefreshButton{
+    font-weight: 800;
+    text-align: center;
+    border:2px solid grey;
+    padding:10px;
+    font-size: 1em;
+    margin-top:1em;
+    margin-bottom: 1em;
+  }
+
+   .RefreshButton:hover, .movieSearchInput:hover{
+    background-color: #696969 ;
+    color:#fff;
+   }
